@@ -1,0 +1,41 @@
+.contatos{
+    background-color: #FFFFFF;
+    padding: 1em;
+    
+}
+
+.titulo__contatos, .descricao__contatos{
+    font-size: 18px;
+    font-weight: 500;
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 0.5em 0;
+
+}
+
+.descricao__contatos{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0 0 0.8em 0;
+}
+
+.contato__busca{
+    padding: 1em;
+    border: 1px solid #002F52;
+    border-radius: 24px;
+    width: 90%;
+
+}
+
+.contato__busca::placeholder{
+    color: #002F52;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background-image: url(../img/Vector2.svg);
+    background-repeat: no-repeat;
+    background-position: 0.5em;
+}
