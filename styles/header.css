@@ -167,7 +167,16 @@
         width: 20vw;
         background-color: #FFFFFF
     }
+    
+    .titulo__menu:hover{
+        background: var(--gradiente);
+        color: #FFFFFF;
+    }
 
+    .lista__menu--item:hover{
+        background: var(--gradiente);
+        color: white;
+    }
     .titulo__banner{
         font-size: 36px;
         margin-top: 1.5em;
@@ -184,5 +193,5 @@
         text-align: center; 
     }
 
-    
+
 }
