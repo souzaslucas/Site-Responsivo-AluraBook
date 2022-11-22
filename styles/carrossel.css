@@ -80,3 +80,34 @@
     font-weight: 700;
     margin-left: 5em;
 }
+
+@media screen and (min-width: 1024px) {
+    .titulo__secao--1024{
+        color: var(--titulo-laranja);
+        text-align: center;
+        background-color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 1.4em 0 .8em 0;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+    .swiper-button-next,
+    .swiper-button-prev{
+        display: block;
+        color: transparent;   
+    }
+
+    .swiper-button-next{
+        right: 38px;
+        left: auto;
+        position: absolute;
+    }
+
+    .card{
+        width: 50%;
+        margin: 2em auto;
+    }
+}

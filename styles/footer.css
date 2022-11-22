@@ -1,0 +1,137 @@
+.footer{
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 2em 2em;
+    }
+
+    .titulo__footer{
+        font-size: 24px;
+        font-weight: 400;
+
+    }
+    .coluna__footer{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .titulo__coluna{
+        font-size: 14px;
+        font-weight: 300;
+        padding: 0 0 1em 0;
+        text-transform: uppercase;
+    }
+
+
+    .lista__footer{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .item__lista--footer{
+        padding: .5em;
+        vertical-align: middle;
+
+    }
+
+    .item__lista--footer a{
+        text-decoration: none;
+    }
+    
+    .caelum::before{
+        content:url('../img/caelum.svg');
+        vertical-align: middle;
+        font-size: 10px;
+        padding-right: .5em;
+    }
+
+    .casa_do_cogido::before{
+        content:url('../img/CasaDoCodigo.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+
+    .alura::before{
+        content: url('../img/Alura.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+
+    .alura__empresas::before{
+        content: url('../img/AluraEmpresas.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+
+    .alura__latam::before{
+        content: url('../img/AluraLATAM.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+
+    .alura__start::before{
+        content: url('../img/AluraStart.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+
+    .musicdot::before{
+        content: url('../img/MusicDot.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+    .alura__lingua::before{
+        content: url('../img/AluraLingua.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+    .pm3::before{
+        content: url('../img/PM3.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+    .Hipster::before{
+        content: url('../img/HipstersTech.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+    .scuba::before{
+        content: url('../img/ScubaDev.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+
+    .layers::before{
+        content: url('../img/LayersTech.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+
+    .like::before{
+        content: url('../img/LikeABoss.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+
+    .carreira::before{
+        content: url('../img/CarreiraSemFronteira.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+    .hipster__jobs::before{
+        content: url('../img/HipstersJobs.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+    .guj::before{
+        content: url('../img/GUJ.svg');
+        vertical-align: middle;
+        padding-right: .5em;
+    }
+    
+}

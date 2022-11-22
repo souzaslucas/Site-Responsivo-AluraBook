@@ -27,6 +27,25 @@
                 </ul>
             </div>
                 <a href="#" class="logo"><img src="img/Logo.svg" alt="logo" class="imagem__logo"></a>
+                <h1 class="titulo__header"><strong>Alura</strong>Books</a></h1>
+        </div>
+        <div class="menu__1024">
+            <ul class="lista__menu--24">
+                <input type="checkbox" id="menu__24" class="menu__24--botao">
+                <label for="menu__24"><li class="titulo__menu">Categorias</li></label>
+                <ul class="lista--menu--24">
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Caterias</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Caterias</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Caterias</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Caterias</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Caterias</a></li>
+                </ul>
+
+
+                <li class="titulo__menu">Favoritos</li>
+                <li class="titulo__menu">Minha Estante</li>
+                
+            </ul>
         </div>
         <div class="cabecalho__direito">
             <a href="#" class="cabecalho__favorito"><img src="img/Favoritos.svg" alt="Favoritos" class="imagem__favoristos"></a>
@@ -40,7 +59,7 @@
         <input type="search" class="banner__busca" id="busca" placeholder="Qual será sua próxima leitura?">
     </section>
     <section class="carrossel">
-        <h2 class="titulo__secao">ÚLTIMOS LANÇAMENTOS</h2>
+        <h2 class="titulo__secao titulo__secao--1024">ÚLTIMOS LANÇAMENTOS</h2>
                 <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->
@@ -56,8 +75,8 @@
             </div>
         
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"><img src="img/prev__icon.svg" alt="previous" class="teste"></div>
+            <div class="swiper-button-next"><img src="img/next__icon.svg" alt="next" class="teste"></div>
         
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
@@ -99,11 +118,12 @@
             </div>
 
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"><img src="img/prev__icon.svg" alt="previous" class="teste"></div>
+            <div class="swiper-button-next"><img src="img/next__icon.svg" alt="next" class="teste"></div>
 
             <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
+            <div class="swiper-scrollbar"></div>`
+
         </div>
         <div class="card">
             <div class="card__descricao">
@@ -147,13 +167,47 @@
     </section>
     <section class="contatos">  
         <div class="contatos__div">
-            <h3 class="titulo__contatos">Fique por dentro das novidades!</h3>
-            <p class="descricao__contatos">Atualizações de e-books, novos livros, promoções e outros.</p>
-            <input type="search" class="contato__busca" id="busca" placeholder="Qual será sua próxima leitura?">
+            <div class="coluna__um">
+                <h3 class="titulo__contatos">Fique por dentro das novidades!</h3>
+                <p class="descricao__contatos">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
+                <input type="search" class="contato__busca" id="busca" placeholder="Qual será sua próxima leitura?">
         </div>
-
     </section>
-
+    <footer class="footer">
+        <h3 class="titulo__footer">Grupo Alura</h3>
+        <div class="coluna__educacao coluna__footer">
+            <h5 class="titulo__coluna">Educação</h5>
+            <ul class="lista__footer">
+                <li class="item__lista--footer caelum"><a href="#"> Caelum</a></li>
+                <li class="item__lista--footer casa_do_cogido"><a href="#"> Casa do Código</a></li>
+            </ul>
+        </div>
+        <div class="coluna__educacao--2 coluna__footer">
+            <h4 class="titulo__coluna">Educação Online</h4>
+            <ul class="lista__footer">
+                <li class="item__lista--footer alura"><a href=""> Alura </a></li>
+                <li class="item__lista--footer alura__empresas"><a href="#"> Alura pra Empresas</a></li>
+                <li class="item__lista--footer alura__latam"><a href="#"> Alura LATAM</a></li>
+                <li class="item__lista--footer alura__start"><a href="#"> Alura Start</a></li>
+                <li class="item__lista--footer musicdot"><a href="#"> MusicDot</a></li>
+                <li class="item__lista--footer alura__lingua"><a href="#"> Alura Lingua</a></li>
+                <li class="item__lista--footer pm3"><a href="#"> PM3</a></li>
+            </ul>
+        </div>
+        <div class="comunidade coluna__footer">
+            <h4 class="titulo__coluna">Comunidade</h4>
+            <ul class="lista__footer">
+                <li class="item__lista--footer Hipster"><a href="#">Hipster ponto Tech </a> </li>
+                <li class="item__lista--footer layers">Layers ponto Tech</li>
+                <li class="item__lista--footer scuba"><a href="#"> Scuba Dev </a></li>
+                <li class="item__lista--footer like"> <a href="#"> Like a Boss</a></li>
+                <li class="item__lista--footer carreira"><a href="#"> Carreira sem Fronteira </a></li>
+                <li class="item__lista--footer Hipster__jobs"> <a href="#"> Hipsters ponto Jobs </a></li>
+                <li class="item__lista--footer guj"><a href="#"> GUJ</a></li>
+            </ul>
+        </div>
+    </footer>
 
 
 
@@ -161,11 +215,15 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
+            spaceBetween: 8,
             slidesPerView: 2,
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
             },
         });
 
