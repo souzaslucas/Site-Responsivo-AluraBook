@@ -1,6 +1,13 @@
 <h1> Site Resposivo para Mobile e Desktop </h3>
 
 <strong>Projeto em desenvolvimento.</strong>
+
+<p> 
+Mobile - Ok <br>
+1024px - Em Andamento<br>
+1780px - Para Iniciar<br>
+</p>
+
 <h3>
 Descrição:
 </h3>
