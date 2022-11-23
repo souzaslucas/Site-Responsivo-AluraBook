@@ -1,12 +1,16 @@
-<h2>Projeto em desenvolvimento.</h2>
+Projeto em desenvolvimento.
 
-Desenvolvimento de página responsiva para versões mobile e desktop. 
-<h3> Habilidades: </h3>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript API</li>
-</ul>
+Descrição:
+Desenvolvimento de página responsiva para versões mobile e desktop.
+Projeto Desenvolvido em Aulas da Formação HTML e CSS da Alura.
+
+
+Habilidades:
+
+HTML
+CSS
+JavaScript API
+
 
 
 
