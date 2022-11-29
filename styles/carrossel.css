@@ -110,4 +110,29 @@
         width: 50%;
         margin: 2em auto;
     }
+
+    @media screen and (min-width: 1728px){
+
+        .carrossel{
+            display: grid;
+            grid-template-rows: auto 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "titulo-carrossel titulo-carrossel titulo-carrossel";
+        }
+
+        .titulo__secao{
+            grid-area: titulo-carrossel;
+            margin-bottom: .5em;
+            font-size: 32px;
+            font-weight: 700;
+            padding-top: 1.5em;
+        }
+
+        .card{
+            width: 65%;
+            margin: 2em auto;
+        }
+
+
+    }
 }

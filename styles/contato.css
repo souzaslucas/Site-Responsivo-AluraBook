@@ -52,5 +52,11 @@
     .coluna_um{
         padding: 0 2em;
     }
+}
+
+@media screen and (min-width:1728px) {
+    .contatos__div{
+        justify-content: center;
+    }
     
 }

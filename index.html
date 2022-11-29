@@ -10,7 +10,7 @@
     <title>Alura Book</title>
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho cabecalho__1728">
         <div class="cabecalho__esquerda">
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
@@ -19,26 +19,26 @@
             <div class="div--menu">
                 <ul class="lista--menu">
                     <li class="titulo__menu">Categorias</li>
-                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Categorias</a></li>
-                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Categorias</a></li>
-                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Categorias</a></li>
-                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Categorias</a></li>
-                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Categorias</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Programação</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Front-end</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Infraestrutura</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Busines</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Design & UX</a></li>
                 </ul>
             </div>
                 <a href="#" class="logo"><img src="img/Logo.svg" alt="logo" class="imagem__logo"></a>
                 <h1 class="titulo__header"><strong>Alura</strong>Books</a></h1>
         </div>
-        <div class="menu__1024">
+        <div class="menu__1024 menu__1728">
             <ul class="lista__menu--24">
                 <input type="checkbox" id="menu__24" class="menu__24--botao">
                 <label for="menu__24"><li class="titulo__menu">Categorias</li></label>
-                <ul class="lista--menu--24">
-                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Caterias</a></li>
-                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Caterias</a></li>
-                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Caterias</a></li>
-                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Caterias</a></li>
-                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Caterias</a></li>
+                <ul class="lista--menu--24 lista--menu--1728">
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Programação</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Front-end</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Infraestrutura</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Busines</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista--menu-link"> Design & UX</a></li>
                 </ul>
 
 
@@ -48,9 +48,14 @@
             </ul>
         </div>
         <div class="cabecalho__direito">
-            <a href="#" class="cabecalho__favorito"><img src="img/Favoritos.svg" alt="Favoritos" class="imagem__favoristos"></a>
-            <a href="#" class="cabecalho__compras"><img src="img/Compras.svg" alt="compras" class="imagem__compras"></a>
-            <a href="#" class="cabecalho__usuario"><img src="img/Usuario.svg" alt="usuario" class="imagem__usuario"></a>
+            <a href="#" class="cabecalho__favorito"><img src="img/Favoritos.svg" alt="Favoritos" class="imagem__favoristos">
+            </a>
+            <a href="#" class="cabecalho__compras"><img src="img/Compras.svg" alt="compras" class="imagem__compras">
+                <a href="#" class="txt__compras">Minha Sacola</a>
+            </a>
+            <a href="#" class="cabecalho__usuario"><img src="img/Usuario.svg" alt="usuario" class="imagem__usuario">
+                <a href="#" class="txt__usuario">Meu Perfil</a>
+            </a>
         </div>
     </header>
     <section class="banner">
@@ -215,8 +220,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-            spaceBetween: 8,
-            slidesPerView: 2,
+            spaceBetween: 10,
+            slidesPerView: 3,
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',

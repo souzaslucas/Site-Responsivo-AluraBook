@@ -1,4 +1,4 @@
-.cabecalho{
+.cabecalho {
     background-color: #FFFFFF;
     height: 48px;
     padding: 18px 24px;
@@ -6,24 +6,24 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    
+
 }
 
-.cabecalho__esquerda{
+.cabecalho__esquerda {
     display: flex;
     align-items: center;
 }
 
-.logo{
+.logo {
     margin-left: 30px;
     margin-right: 30px;
 }
 
-.titulo__header{
+.titulo__header {
     display: none;
 }
 
-.cabecalho__menu--sanfona{
+.cabecalho__menu--sanfona {
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
@@ -32,39 +32,45 @@
     display: inline-block;
 }
 
-.cabecalho__compras{
+.cabecalho__compras {
     margin: 0 30px;
 }
 
-.container__botao{
+.txt__compras, .txt__usuario{
     display: none;
 }
-.container__botao:checked~.div--menu{
+
+.container__botao {
+    display: none;
+}
+
+.container__botao:checked~.div--menu {
     display: block;
 }
 
-.div--menu{
+.div--menu {
     display: none;
     background-color: #FFFFFF
 }
 
-.menu__1024{
+.menu__1024 {
     display: none;
 }
 
-.lista--menu{
+.lista--menu {
     position: absolute;
-    top:100%;
+    top: 100%;
     left: 0;
     width: 60vw;
     background-color: #FFFFFF
 }
 
-.titulo__menu{
+.titulo__menu {
     color: var(--titulo-laranja);
 }
 
-.lista__menu--item{
+
+.lista__menu--item {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -72,11 +78,12 @@
     text-transform: uppercase;
 }
 
-.titulo__menu,.lista__menu--item{
+.titulo__menu,
+.lista__menu--item {
     padding: 1em;
 }
 
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,18 +94,18 @@
 
 }
 
-.titulo__banner{
+.titulo__banner {
     font-size: 18px;
     font-weight: 700;
 }
 
-.descricao__banner{
+.descricao__banner {
     font-size: 16px;
     text-align: center;
     padding: 1.5em 0;
 }
 
-.banner__busca{
+.banner__busca {
     background: none;
     border-radius: 30px;
     border: solid 0.08em white;
@@ -107,7 +114,7 @@
     width: 100%;
 }
 
-.banner__busca::placeholder{
+.banner__busca::placeholder {
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -117,17 +124,16 @@
     background-repeat: no-repeat;
     background-position: 0em;
 }
-@media screen and (min-width: 1024px)  {
-    .container__botao, .cabecalho__menu--sanfona, .cabecalho__favorito{
+
+@media screen and (min-width: 1024px) {
+
+    .container__botao,
+    .cabecalho__menu--sanfona,
+    .cabecalho__favorito {
         display: none;
     }
 
-    .titulo__header strong{
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    .titulo__header{
+        .titulo__header {
         font-family: 'Josefin Sans';
         display: contents;
         font-size: 30px;
@@ -135,15 +141,22 @@
         margin-left: 1em;
     }
 
-    .menu__24--botao{
+    .titulo__header strong {
+        font-family: 'Josefin Sans';
+        display: contents;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .menu__24--botao {
         display: none;
     }
 
-    .menu__1024{
+    .menu__1024 {
         display: block
     }
 
-    .lista__menu--24{
+    .lista__menu--24 {
         display: flex;
         justify-content: space-between;
         text-transform: uppercase;
@@ -152,46 +165,94 @@
 
     }
 
-    .lista--menu--24{
+    .lista--menu--24 {
         display: none;
     }
 
-    .menu__24--botao:checked ~ .lista--menu--24{
+    .menu__24--botao:checked~.lista--menu--24 {
         display: block;
     }
 
-    .lista--menu--24{
+    .lista--menu--24 {
         position: absolute;
-        top: 60%;
+        top: 80%;
         left: 35%;
         width: 20vw;
         background-color: #FFFFFF
     }
-    
-    .titulo__menu:hover{
+
+    .titulo__menu:hover {
         background: var(--gradiente);
         color: #FFFFFF;
     }
 
-    .lista__menu--item:hover{
-        background: var(--gradiente);
-        color: white;
-    }
-    .titulo__banner{
+    .titulo__banner {
         font-size: 36px;
         margin-top: 1.5em;
     }
-    .banner__busca{
+
+    .banner__busca {
         width: 50%;
     }
-    
-    .banner__busca::placeholder{
+
+    .banner__busca::placeholder {
         color: #FFFFFF;
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
         font-weight: 400;
-        text-align: center; 
+        text-align: center;
     }
+
+    .txt__compras, .txt__usuario{
+        display: none;
+    }
+
+    @media screen and (min-width: 1728px) {
+    .container__botao,
+    .cabecalho__menu--sanfona,
+    .menu, .cabecalho__favorito,
+    .cabecalho__favorito {
+        display: none;
+    }
+
+    .txt__compras, .txt__usuario{
+        display: block ;
+        text-decoration: none;
+
+    }
+
+    .cabecalho__1728{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-items: flex-start;
+        align-items: center;
+        align-content: center;
+    }
+
+    .menu__1728{
+        margin-right: 700px;
+    }
+
+    .lista--menu--1728{
+        position: absolute;
+        top: 80%;
+        left: 17%;
+        width: 10vw;
+        background-color: #FFFFFF
+    }
+
+
+    .cabecalho__direito{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        align-items: center;
+        grid-gap: 16px
+    }
+
+    .cabecalho__compras{
+        margin: 0;
+    }
+
 
 
 }
