@@ -4,9 +4,11 @@
 
 <p> 
 Mobile - Ok <br>
-1024px - Em Andamento<br>
-1780px - Para Iniciar<br>
+1024px - Ok<br>
+1780px - Ok<br>
 </p>
+
+<a href="https://site-responsivo-alura-book.vercel.app/"> Preview do Projeto </a>
 
 <h3>
 Descrição:
